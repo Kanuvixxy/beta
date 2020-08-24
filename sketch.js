@@ -35,9 +35,8 @@ var lasermusic,
   zombieDie,
   gameOverSound,
   jumpSound,
-  partSound,
-  bgSound;
-
+  partSound;
+    
 var energy_count = 0;
 var part_count = 4;
 
@@ -149,9 +148,6 @@ function setup() {
 function draw() {
   background(backg);
   invis_canvas.visible = false;
-
-  // bgSound.play();
-  // bgSound.loop();
 
   if (gameState === 0) {
     form = new Form();
